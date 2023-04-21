@@ -15,6 +15,19 @@ public class Mitarbeiter {
       }
 
       void getInfo(Mitarbeiter mitarbeiter)
-      
+      { 
+        System.out.println();
+        System.out.println("Name: " + name);
+        System.out.println("Vorname: " + firstName);
+        System.out.println("Rolle: " + role);
+        System.out.println("Eintrittsjahr: " + entryYear);
+        System.out.println();
+    }
+
+    // public void getInfo() {
+    // }
 
 }
+
+  
+    
